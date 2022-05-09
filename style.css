@@ -21,6 +21,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   overflow: hidden;
+  line-height: 30px;
 }
 .floated {
   position: relative;
@@ -445,7 +446,7 @@ body {
   height: 576px;
   width: 48%;
   vertical-align: top;
-  background: url("https://images.unsplash.com/photo-1537735319956-df7db4b6a4e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=731&q=80") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1521577352947-9bb58764b69a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80") no-repeat center;
   background-size: 375px 576px;
 }
 .profile-view-container .arrow {
