@@ -743,6 +743,21 @@ body {
 .social-button.behance-button {
   background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-256.png") no-repeat center;
 }
+.map {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
 @media screen and (max-width: 1300px) {
   .test-left .half-big-text {
     letter-spacing: 2px;
@@ -846,6 +861,7 @@ body {
     margin: 0;
     text-align: center;
   }
+
 }
 @media screen and (max-width: 700px) {
   .quad-half,
